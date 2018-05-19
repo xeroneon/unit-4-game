@@ -8,3 +8,8 @@ img:hover {
     margin-top: 0;
     margin-bottom: 0;
 }
+
+body {
+    height: 100%;
+	background: radial-gradient(circle farthest-side, #bd3f32, #cb356b);    
+}
