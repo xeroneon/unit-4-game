@@ -1,0 +1,10 @@
+img:hover {
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+    cursor: pointer;
+}
+
+.row {
+    margin-top: 0;
+    margin-bottom: 0;
+}
