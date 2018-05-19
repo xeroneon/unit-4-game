@@ -1,3 +1,11 @@
+html {
+  background: url(../images/art.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 img:hover {
     -webkit-filter: drop-shadow(5px 5px 5px #222);
     filter: drop-shadow(5px 5px 5px #222);
@@ -10,6 +18,22 @@ img:hover {
 }
 
 body {
+    /* background: url(../images/art.png); */
+    background-repeat: no-repeat;
+    background-size: inherit;
     height: 100%;
-	background: radial-gradient(circle farthest-side, #bd3f32, #cb356b);    
+    text-shadow: 2px 2px #555; 
+}
+
+.bg {
+    /* The image used */
+    /* background: url(../images/art.png); */
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
